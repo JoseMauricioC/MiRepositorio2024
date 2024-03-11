@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+.externo{
+    width: 900px;
+    margin: auto;
+    border: 1px solid black;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 251, 127);
+
+}
+
+.contenedor div{
+    margin: 10px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 251, 127);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpo{
+    display: flex;
+    height: 400px;
+}
+
+.uno{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.dos{
+    width: 60%;
+    border: 1px solid black;
+}
+.tres{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.abajo{
+    background-color: rgb(0, 166, 255);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

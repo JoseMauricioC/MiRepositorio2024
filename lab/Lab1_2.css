@@ -1,0 +1,46 @@
+.externo{
+    margin: auto;
+    width: 900px;
+    border: 1px solid black;
+}
+
+.arriba{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(122, 215, 246);
+}
+.texto1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.semestre{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(66, 123, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.cuerpo{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}

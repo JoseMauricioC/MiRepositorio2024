@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Horizontal con Estilos</title>
+<style>
+  .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid white;
+  }
+  
+  /* Cambiar el color del enlace cuando el mouse pasa por encima */
+  .menu ul li a:hover {
+    background-color: #555;
+  }
+</style>
+</head>
+<body>
+
+<div class="menu">
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#acerca">Acerca</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

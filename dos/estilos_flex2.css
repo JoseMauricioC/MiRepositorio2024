@@ -1,0 +1,28 @@
+.conteiner{
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-wrap: wrap;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: center;*/
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-around;*/
+    justify-content: space-between;
+    /*height: 400px;
+    align-items: end;*/
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.conteiner div{
+    background-color: coral;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid black;
+    font-size: 30px;
+}

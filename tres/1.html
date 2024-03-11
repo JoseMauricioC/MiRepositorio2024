@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centrar imagen en un div</title>
+<style>
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Altura del div, ajusta según sea necesario */
+    border: 1px solid #ccc; /* Solo para fines de visualización */
+  }
+  
+  .contenedor img {
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+  }
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+  <img src="Logo.png" alt="Imagen centrada">
+</div>
+
+</body>
+</html>
